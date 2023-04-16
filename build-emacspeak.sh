@@ -2,7 +2,7 @@
 
 cd ~
 
-sudo apt install git tclx8.4-dev -y && sudo apt-get build-dep emacs emacspeak -y
+sudo apt-get install git tclx8.4-dev -y && sudo apt-get build-dep emacs emacspeak -y
 
 git clone -b master https://git.savannah.gnu.org/git/emacs.git
 git clone https://github.com/tvraman/emacspeak
